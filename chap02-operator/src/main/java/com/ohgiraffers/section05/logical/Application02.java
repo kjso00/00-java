@@ -17,13 +17,13 @@ public class Application02 {
         System.out.println("num2 가 1부터 100 사이인지 확인 : " + (num2 >= 1 && num2 <= 100));
 
         char ch1 = '6';
-        System.out.println("ch1이 대문자인지 확인하기 : " + (ch1));
+        System.out.println("ch1이 대문자인지 확인하기 : " + (ch1 == '6'));
 
         char ch3 = 'Y';
-        System.out.println("영문자 y인지 확인 : " + (ch3 == 'y' && ch3 == 'Y'));
+        System.out.println("영문자 y인지 확인 : " + (ch3 == 'y' || ch3 == 'Y'));
 
         char ch4 = 'y';
-        System.out.println("영문자 y인지 확인 :" + (ch4 == 89 && ch4 == 121));
+        System.out.println("영문자 y인지 확인 :" + (ch4 == 89 || ch4 == 121));
 
         // 복잡할 수 있음
         char ch5 = '6';

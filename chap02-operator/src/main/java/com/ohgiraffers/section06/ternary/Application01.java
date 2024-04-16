@@ -13,15 +13,19 @@ public class Application01 {
         int num2 = -10;
 //          num1과 num2를 삼항 연산자를 이용하여 양수 또는 음수로 표현해주세요.
         String result1 = (num1 > 0)? "양수이다" : "음수이다";
+        System.out.println(result1);
         String result2 = (num2 > 0)? "양수이다" : "음수이다";
+        System.out.println(("num1은 : " +result2));
         // 삼항 연산자 중첩 사용
         int num3 = 5;
         int num4 = 0;
         int num5 = -5;
         String result3 = (num3 > 0)? "양수이다." : (num3 == 0)? "0이다." : "홀수이다.";
+        System.out.println(result3);
         // 중첩 삼항 연산자 사용
         // num4가 양수인지 음수인지 8인지 확인해주세요
-        String result4 = (num4 > 0)? "양수이다." : (num4 < 0)? "음수이다" : num4==0;
+        String result4 = (num4 > 0)? "양수이다." : (num4 < 0)? "음수이다" : "0이다";
+        System.out.println(result4);
         // num5가 양수인지 음수인지 8인지 확인해주세요
 
 
