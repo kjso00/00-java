@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>블로그</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+    <p>홈</p>
+    <p>계획하기</p>
+    <p>자랑하기</p>
+</header>
+<h1>다녀온 여행 자랑하기</h1>
+<div class="content">
+    <div class="header-section">
+        <p>전체 게시물</p>
+        <select class="post-filter">
+            <option value="popular">조회순 ❤</option>
+            <option value="recent">최신순 ❤</option>
+        </select>
+    </div>
+    <div class="search-section">
+        <label for="region-search">지역 검색하기:</label>
+        <input type="text" id="region-search" placeholder="지역 입력">
+        <button id="search-button">검색</button>
+    </div>
+    <div class="post-list" id="post-list">
+        <div class="post" data-region="서울">
+            <div class="thumbnail">
+                <img src="https://via.placeholder.com/150" alt="썸네일">
+            </div>
+            <div class="post-content">
+                <h3>김 화연</h3>
+                <p>이 글은 첫 번째 게시물에 대한 세 줄 미리보기입니다. 여기에는 사용자가 작성한 내용의 요약이 들어갑니다.</p>
+                <a href="#" class="read-more">더 보기</a>
+            </div>
+        </div>
+        <div class="post" data-region="부산">
+            <div class="thumbnail">
+                <img src="https://via.placeholder.com/150" alt="썸네일">
+            </div>
+            <div class="post-content">
+                <h3>홍 서우</h3>
+                <p>두 번째 게시물의 세 줄 미리보기입니다. 여기에는 더 많은 내용이 있을 수 있습니다.</p>
+                <a href="#" class="read-more">더 보기</a>
+            </div>
+        </div>
+        <div class="post" data-region="제주">
+            <div class="thumbnail">
+                <img src="https://via.placeholder.com/150" alt="썸네일">
+            </div>
+            <div class="post-content">
+                <h3>목 진희</h3>
+                <p>두 번째 게시물의 세 줄 미리보기입니다. 여기에는 더 많은 내용이 있을 수 있습니다.</p>
+                <a href="#" class="read-more">더 보기</a>
+            </div>
+        </div>
+        <div class="post" data-region="서울">
+            <div class="thumbnail">
+                <img src="https://via.placeholder.com/150" alt="썸네일">
+            </div>
+            <div class="post-content">
+                <h3>김 효연</h3>
+                <p>두 번째 게시물의 세 줄 미리보기입니다. 여기에는 더 많은 내용이 있을 수 있습니다.</p>
+                <a href="#" class="read-more">더 보기</a>
+            </div>
+        </div>
+        <div class="post" data-region="제주">
+            <div class="thumbnail">
+                <img src="https://via.placeholder.com/150" alt="썸네일">
+            </div>
+            <div class="post-content">
+                <h3>신 주연</h3>
+                <p>두 번째 게시물의 세 줄 미리보기입니다. 여기에는 더 많은 내용이 있을 수 있습니다.</p>
+                <a href="#" class="read-more">더 보기</a>
+            </div>
+        </div>
+        <div class="post" data-region="울산">
+            <div class="thumbnail">
+                <img src="https://via.placeholder.com/150" alt="썸네일">
+            </div>
+            <div class="post-content">
+                <h3>김 재석</h3>
+                <p>두 번째 게시물의 세 줄 미리보기입니다. 여기에는 더 많은 내용이 있을 수 있습니다.</p>
+                <a href="#" class="read-more">더 보기</a>
+            </div>
+        </div>
+        <div class="post" data-region="인천">
+            <div class="thumbnail">
+                <img src="https://via.placeholder.com/150" alt="썸네일">
+            </div>
+            <div class="post-content">
+                <h3>김 준성</h3>
+                <p>두 번째 게시물의 세 줄 미리보기입니다. 여기에는 더 많은 내용이 있을 수 있습니다.</p>
+                <a href="#" class="read-more">더 보기</a>
+            </div>
+        </div>
+        <div class="post" data-region="인천">
+            <div class="thumbnail">
+                <img src="https://photo.coolenjoy.co.kr/data/editor/2208/thumb-f83b1f4f93227114b021b4fe1cef9aa10636e128.jpg" alt="썸네일">
+            </div>
+            <div class="post-content">
+                <h3>한 소희</h3>
+                <p>두 번째 게시물의 세 줄 미리보기입니다. 여기에는 더 많은 내용이 있을 수 있습니다.</p>
+                <a href="#" class="read-more">더 보기</a>
+            </div>
+        </div>
+
+        <!-- 추가적인 게시물들을 동일한 형식으로 추가 -->
+    </div>
+</div>
+
+</body>
+</html>
